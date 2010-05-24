@@ -1,0 +1,9 @@
+Optiboot is an optimised bootloader for Arduino.
+
+It implements the STK500 upload protocol, so application code can be flashed
+over a serial port using Avrdude or the Arduino IDE.
+
+Optiboot is very small (512 bytes) and has lots of optimisations to speed up
+the flashing workflow including Erase-while-communicating, high baud rates
+(115200 baud) and prompt bootloader exits.
+
